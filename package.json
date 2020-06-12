@@ -1,0 +1,14 @@
+{
+  "name": "thanos",
+  "version": "1.0.0",
+  "description": "a js Port of https://github.com/aternosorg/thanos/",
+  "main": "index.js",
+  "scripts": {
+    "test": "rm -d -r output; node index.js input output"
+  },
+  "author": "Mc88Donalds",
+  "license": "MIT",
+  "dependencies": {
+    "prismarine-provider-anvil": "^2.1.0"
+  }
+}
